@@ -1,6 +1,6 @@
 nodes:
   - host: 23.19.231.80
-    port: 15878
-    id: 0c492ea9-a4b1-4267-8fb1-fe22e0da6b80
-    publicKey: www.baidu.com
+    port: 15063
+    id: d33a67ba-f9a8-4b8a-ac29-b1a505559061
+    publicKey: www.google.com
     serverName: ""

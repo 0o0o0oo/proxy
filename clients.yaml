@@ -2,30 +2,30 @@ proxies:
   - name: 23.19.231.80
     type: vless
     server: 23.19.231.80
-    port: 15878
-    uuid: 0c492ea9-a4b1-4267-8fb1-fe22e0da6b80
+    port: 15063
+    uuid: d33a67ba-f9a8-4b8a-ac29-b1a505559061
     flow: xtls-rprx-vision
     tls: true
     servername: 
     reality-opts:
-      public-key: www.baidu.com
+      public-key: www.google.com
 outbounds:
   - protocol: vless
     settings:
       vnext:
         - address: 23.19.231.80
-          port: 15878
+          port: 15063
           users:
-            - id: 0c492ea9-a4b1-4267-8fb1-fe22e0da6b80
+            - id: d33a67ba-f9a8-4b8a-ac29-b1a505559061
               flow: xtls-rprx-vision
               encryption: none
-    streamSettings:
-      network: tcp
-      security: reality
-      realitySettings:
-        show: false
-        fingerprint: chrome
-        serverName: ""
-        publicKey: www.baidu.com
-        shortId: ""
-        spiderX: /
+          streamSettings:
+            network: tcp
+            security: reality
+            realitySettings:
+              show: false
+              fingerprint: chrome
+              serverName: ""
+              publicKey: www.google.com
+              shortId: ""
+              spiderX: /
