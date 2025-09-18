@@ -2,21 +2,21 @@ proxies:
   - name: 23.19.231.80
     type: vless
     server: 23.19.231.80
-    port: 28262
-    uuid: 5541c859-fdcb-4a86-a43d-5f84ef9d6558
+    port: 24590
+    uuid: d4bf4e57-6ae3-4c14-bcf0-b7d576a74af1
     flow: xtls-rprx-vision
     tls: true
     servername: 
     reality-opts:
-      public-key: www.yahoo.com
+      public-key: www.google.com
 outbounds:
   - protocol: vless
     settings:
       vnext:
         - address: 23.19.231.80
-          port: 28262
+          port: 24590
           users:
-            - id: 5541c859-fdcb-4a86-a43d-5f84ef9d6558
+            - id: d4bf4e57-6ae3-4c14-bcf0-b7d576a74af1
               flow: xtls-rprx-vision
               encryption: none
     streamSettings:
@@ -26,6 +26,6 @@ outbounds:
         show: false
         fingerprint: chrome
         serverName: ""
-        publicKey: www.yahoo.com
+        publicKey: www.google.com
         shortId: ""
         spiderX: /

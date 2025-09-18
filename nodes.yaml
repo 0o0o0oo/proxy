@@ -1,6 +1,6 @@
 nodes:
   - host: 23.19.231.80
-    port: 28262
-    id: 5541c859-fdcb-4a86-a43d-5f84ef9d6558
-    publicKey: www.yahoo.com
+    port: 24590
+    id: d4bf4e57-6ae3-4c14-bcf0-b7d576a74af1
+    publicKey: www.google.com
     serverName: ""
