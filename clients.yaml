@@ -2,8 +2,8 @@ proxies:
   - name: 23.19.231.80
     type: vless
     server: 23.19.231.80
-    port: 14098
-    uuid: 07704f96-2149-4a24-898b-72a7e899d134
+    port: 29161
+    uuid: 3b3193d1-7e13-4e58-bfd2-4e153b5da4da
     flow: xtls-rprx-vision
     tls: true
     servername: 
@@ -14,9 +14,9 @@ outbounds:
     settings:
       vnext:
         - address: 23.19.231.80
-          port: 14098
+          port: 29161
           users:
-            - id: 07704f96-2149-4a24-898b-72a7e899d134
+            - id: 3b3193d1-7e13-4e58-bfd2-4e153b5da4da
               flow: xtls-rprx-vision
               encryption: none
     streamSettings:
