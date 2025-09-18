@@ -1,0 +1,6 @@
+nodes:
+  - host: 23.19.231.80
+    port: 22255
+    id: f8087531-0257-485f-9cde-e43e6c0fd23d
+    publicKey: https://www.yahoo.com/
+    serverName: ""
