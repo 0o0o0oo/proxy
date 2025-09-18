@@ -2,21 +2,21 @@ proxies:
   - name: 23.19.231.80
     type: vless
     server: 23.19.231.80
-    port: 29161
-    uuid: 3b3193d1-7e13-4e58-bfd2-4e153b5da4da
+    port: 29723
+    uuid: 0860518d-79b7-4064-9fff-ba9dffcd42e6
     flow: xtls-rprx-vision
     tls: true
     servername: 
     reality-opts:
-      public-key: www.google.com
+      public-key: www.youtube.com
 outbounds:
   - protocol: vless
     settings:
       vnext:
         - address: 23.19.231.80
-          port: 29161
+          port: 29723
           users:
-            - id: 3b3193d1-7e13-4e58-bfd2-4e153b5da4da
+            - id: 0860518d-79b7-4064-9fff-ba9dffcd42e6
               flow: xtls-rprx-vision
               encryption: none
     streamSettings:
@@ -26,6 +26,6 @@ outbounds:
         show: false
         fingerprint: chrome
         serverName: ""
-        publicKey: www.google.com
+        publicKey: www.youtube.com
         shortId: ""
         spiderX: /

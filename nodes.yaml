@@ -1,6 +1,6 @@
 nodes:
   - host: 23.19.231.80
-    port: 29161
-    id: 3b3193d1-7e13-4e58-bfd2-4e153b5da4da
-    publicKey: www.google.com
+    port: 29723
+    id: 0860518d-79b7-4064-9fff-ba9dffcd42e6
+    publicKey: www.youtube.com
     serverName: ""
