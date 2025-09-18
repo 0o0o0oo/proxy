@@ -2,21 +2,21 @@ proxies:
   - name: 23.19.231.80
     type: vless
     server: 23.19.231.80
-    port: 29723
-    uuid: 0860518d-79b7-4064-9fff-ba9dffcd42e6
+    port: 15878
+    uuid: 0c492ea9-a4b1-4267-8fb1-fe22e0da6b80
     flow: xtls-rprx-vision
     tls: true
     servername: 
     reality-opts:
-      public-key: www.youtube.com
+      public-key: www.baidu.com
 outbounds:
   - protocol: vless
     settings:
       vnext:
         - address: 23.19.231.80
-          port: 29723
+          port: 15878
           users:
-            - id: 0860518d-79b7-4064-9fff-ba9dffcd42e6
+            - id: 0c492ea9-a4b1-4267-8fb1-fe22e0da6b80
               flow: xtls-rprx-vision
               encryption: none
     streamSettings:
@@ -26,6 +26,6 @@ outbounds:
         show: false
         fingerprint: chrome
         serverName: ""
-        publicKey: www.youtube.com
+        publicKey: www.baidu.com
         shortId: ""
         spiderX: /

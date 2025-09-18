@@ -1,6 +1,6 @@
 nodes:
   - host: 23.19.231.80
-    port: 29723
-    id: 0860518d-79b7-4064-9fff-ba9dffcd42e6
-    publicKey: www.youtube.com
+    port: 15878
+    id: 0c492ea9-a4b1-4267-8fb1-fe22e0da6b80
+    publicKey: www.baidu.com
     serverName: ""
