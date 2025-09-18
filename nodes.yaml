@@ -1,6 +1,6 @@
 nodes:
   - host: 23.19.231.80
-    port: 24590
-    id: d4bf4e57-6ae3-4c14-bcf0-b7d576a74af1
+    port: 14098
+    id: 07704f96-2149-4a24-898b-72a7e899d134
     publicKey: www.google.com
     serverName: ""
