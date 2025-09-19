@@ -7,9 +7,6 @@ proxies:
     network: tcp
     tls: false
     udp: true
-    flow: ""
-    servername: ""
-    reality-opts: {}
 
   - name: "silicloud-jp"
     type: vless
@@ -26,6 +23,7 @@ proxies:
       public-key: BWf5EV_voNn27vXrSTA3oOglKDFnq8wLDNiCH4MG0Tk
       short-id: 681d9219
 
+proxy-groups:
   - name: AUTO
     type: url-test
     proxies:
@@ -37,4 +35,4 @@ proxies:
 rules:
   - GEOIP,CN,DIRECT
   - GEOIP,PRIVATE,DIRECT
-  - MATCH,PROXY
+  - MATCH,AUTO
