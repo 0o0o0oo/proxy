@@ -26,14 +26,6 @@ proxies:
       public-key: BWf5EV_voNn27vXrSTA3oOglKDFnq8wLDNiCH4MG0Tk
       short-id: 681d9219
 
-proxy-groups:
-  - name: PROXY
-    type: select
-    proxies:
-      - "silicloud-us"
-      - "silicloud-jp"
-      - DIRECT
-
   - name: AUTO
     type: url-test
     proxies:
