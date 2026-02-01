@@ -23,6 +23,22 @@ proxies:
       public-key: BWf5EV_voNn27vXrSTA3oOglKDFnq8wLDNiCH4MG0Tk
       short-id: 681d9219
 
+  - name: "Oracle-KR"
+    type: vless
+    server: 144.24.82.151
+    port: 23497
+    uuid: d33cf073-cd9d-4c49-8662-68e08204a2f7
+    network: tcp
+    udp: true
+    tls: true
+    servername: www.bing.com
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: K44LVCD-AAPxK-afcxyAD9yOAfGSyYAk2VL1eJkyohY
+      short-id: 91dd03
+      spider-x: /
+
 proxy-groups:
   - name: AUTO
     type: url-test
