@@ -43,8 +43,8 @@ proxy-groups:
   - name: AUTO
     type: url-test
     proxies:
-      - "silicloud-us"
-      - "silicloud-jp"
+      - "Silicloud-US"
+      - "Silicloud-US"
       - "Oracle-KR"
     url: "http://www.gstatic.com/generate_204"
     interval: 300
