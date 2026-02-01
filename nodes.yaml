@@ -45,6 +45,7 @@ proxy-groups:
     proxies:
       - "silicloud-us"
       - "silicloud-jp"
+      - "Oracle-KR"
     url: "http://www.gstatic.com/generate_204"
     interval: 300
 
