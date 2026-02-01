@@ -1,5 +1,5 @@
 proxies:
-  - name: "silicloud-us"
+  - name: "Silicloud-US"
     type: vless
     server: 154.19.184.40
     port: 52535
@@ -8,7 +8,7 @@ proxies:
     tls: false
     udp: true
 
-  - name: "silicloud-jp"
+  - name: "Silicloud-JP"
     type: vless
     server: 38.47.52.179
     port: 15309
@@ -25,18 +25,19 @@ proxies:
 
   - name: "Oracle-KR"
     type: vless
-    server: 144.24.82.151
-    port: 23497
-    uuid: d33cf073-cd9d-4c49-8662-68e08204a2f7
+    server: 134.185.99.27
+    port: 28246
+    uuid: fc101c97-0d7a-497c-a049-c86628f2bf46
     network: tcp
     udp: true
     tls: true
-    servername: www.bing.com
+    servername: www.oracle.com
     flow: xtls-rprx-vision
     client-fingerprint: chrome
     reality-opts:
-      public-key: K44LVCD-AAPxK-afcxyAD9yOAfGSyYAk2VL1eJkyohY
-      short-id: 91dd03
+      public-key: _7aoh0XpCjHK4hpoJ516Koe-FwJVMY43XypQbQl2tDA
+      short-id: 075f
+      spider-x: /
 
 proxy-groups:
   - name: AUTO
