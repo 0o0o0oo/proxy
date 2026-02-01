@@ -37,7 +37,6 @@ proxies:
     reality-opts:
       public-key: K44LVCD-AAPxK-afcxyAD9yOAfGSyYAk2VL1eJkyohY
       short-id: 91dd03
-      spider-x: /
 
 proxy-groups:
   - name: AUTO
